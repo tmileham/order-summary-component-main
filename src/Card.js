@@ -1,12 +1,13 @@
 import React from "react";
 import "./Card.css";
 
+import heroIllustration from "./assets/images/illustration-hero.svg";
 import iconMusic from "./assets/images/icon-music.svg";
 
 const Card = () => {
   return (
     <div className="orderbox">
-      <img src={"./assets/images/illustration-hero.svg"} alt="" />
+      <img src={heroIllustration} alt="Order Summary" />
       <h1>Order Summary</h1>
       <p>
         You can now listen to millions of songs, audiobooks, and podcasts on any
